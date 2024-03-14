@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hedder{
+    width: 100%;
+    padding: 10px 30px;
+    background-color: aquamarine; 
+}
+.hedder h5{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(10, 10, 10);
+    margin: 30px;
+}
+/* form */
+form {
+    margin-bottom: 20px;
+    margin: 20px;
+    display: none;
+    margin-left: 25%;
+   
+}
+form label {
+    
+    margin-bottom: 5px;
+}
+form input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+form button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+   
+.nav-btns{
+    padding: 4px;
+    margin-left: 5cap;
+    margin-top: 5cap;
+    margin-right: 5cap;
+    margin-bottom: 5cap;
+    display: block ;
+    text-align: center;
+    
+}
+.contaner-left {
+    float: left;
+    justify-content: left;
+
+}
+.contaner-right {
+    position: absolute;
+   display: inline-flex;
+   float: right;
+    right: 10%;
+
+
+}
+.const{position: absolute;
+    display: inline-flex;
+    float: right;
+     right: 05%;
+    
+}
